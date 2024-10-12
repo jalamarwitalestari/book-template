@@ -1,0 +1,336 @@
+%% 'jamali.sty'
+%% Copyright (C) 2024 - Bambang Purnomosidi D. P., Jala Marwita Lestari Publisher. 
+%% 
+%% This file is book style for all books published by Jala Marwita Lestari publisher
+%% It was taken and heavily modified from kultem.sty. Below is the Copyright
+%% Statement from kultem.sty:
+%%
+%% This is the file `kultem.sty',
+%% a non-official KU Leuven template.
+%%
+%% Copyright (C) 2021 by Henri De Plaen, KU Leuven.
+%%
+%% This file may be distributed and/or modified under the conditions of
+%% the LaTeX Project Public License, either version 1.2 of this license
+%% or (at your option) any later version.  The latest version of this
+%% license is in:
+%% 
+%%    http://www.latex-project.org/lppl.txt
+%% 
+%% and version 1.2 or later is part of all distributions of LaTeX version
+%% 1999/12/01 or later.
+%%
+%% I do not own the rights on the KU Leuven logo, which is by consequence
+%% not covered by the license above.
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{jamali[2024/10/14 Jala Marwita Lestari book style (v0.1)]}
+
+\let\myDate\date
+\newcommand\GoodBye[1][\bfseries]{{#1Good Bye}}
+
+%% PACKAGES
+\RequirePackage{kvoptions}
+\RequirePackage{svg}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{tikz}
+\RequirePackage{etoolbox}
+\RequirePackage{enumitem}
+\RequirePackage{geometry}
+\RequirePackage{color}
+\RequirePackage[scaled]{helvet}
+\RequirePackage{sansmath}
+\RequirePackage{caption}
+\RequirePackage{titlesec}
+\RequirePackage{stackengine}
+\RequirePackage{microtype}
+\RequirePackage{listings}
+\RequirePackage[table]{xcolor}
+\RequirePackage{float}
+\RequirePackage[english]{babel}
+\RequirePackage[accsupp]{axessibility}  % improves PDF readability for those with disabilities.
+\RequirePackage{hyperref}
+
+\setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{18pt}
+
+\renewcommand{\arraystretch}{2.5}
+
+\RequirePackage[many]{tcolorbox}
+\tcbset{
+    colframe=magenta,
+    colback=magenta!12!white,
+    boxed title style={colback=magenta},
+	breakable,
+	enhanced,
+	sharp corners,
+	boxsep=1pt,
+	attach boxed title to top left={yshift=-\tcboxedtitleheight,  yshifttext=-.75\baselineskip},
+	boxed title style={boxsep=1pt,sharp corners},
+    fonttitle=\bfseries\sffamily,
+    drop lifted shadow
+}
+\newtcolorbox{solution}[1][]{
+    no shadow,
+    top=2ex,
+    boxrule=0pt,
+    leftrule=1.4pt,
+    title={Solution},
+    colframe=green!79!blue,
+    colback=green!12!white,
+    boxed title style={colback=green!79!blue},
+    overlay unbroken and first={
+        \node[below right,font=\small,color=magenta,text width=.8\linewidth]
+        at (title.north east) {#1};
+    }
+}
+\newtcolorbox[auto counter,number within=chapter,number format=\arabic]{activity}[1][]{
+	title={Activity~\thetcbcounter},
+	colframe=green,
+	colback=green!22!white,
+	coltitle=black,
+	boxed title style={colback=green},
+	overlay unbroken and first={
+		\node[below right,font=\small,color=green,text width=.8\linewidth]
+		at (title.north east) {#1};
+	}
+}
+\newtcolorbox[auto counter,number within=chapter,number format=\arabic]{definition}[1][]{
+	title={Definition~\thetcbcounter},
+	colframe=blue,
+	colback=blue!12!white,
+	boxed title style={colback=blue},
+	overlay unbroken and first={
+		\node[below right,font=\small,color=blue,text width=.8\linewidth]
+		at (title.north east) {#1};
+	}
+}
+\newtcolorbox[auto counter,number within=chapter,number format=\arabic]{theorem}[1][]{
+	title={Theorem~\thetcbcounter},
+	colframe=violet,
+	colback=violet!12!white,
+    fontupper=\itshape,
+	boxed title style={colback=violet},
+	overlay unbroken and first={
+		\node[below right,font=\small,color=violet,text width=.8\linewidth]
+		at (title.north east) {#1};
+	}
+}
+\newtcolorbox[auto counter,number within=chapter,number format=\arabic]{example}[1][]{
+	title={Example~\thetcbcounter},
+	colframe=magenta,
+	colback=magenta!12!white,
+	boxed title style={colback=magenta},
+	overlay unbroken and first={
+		\node[below right,font=\small,color=magenta,text width=.8\linewidth]
+		at (title.north east) {#1};
+	}
+}
+\newtcolorbox[auto counter,number within=chapter,number format=\arabic]{exercise}[1][]{
+    title={Exercise~\thetcbcounter},
+    colframe=red,
+    colback=red!12!white,
+    boxed title style={colback=red},
+    overlay unbroken and first={
+        \node[below right,font=\small,color=red,text width=.8\linewidth]
+        at (title.north east) {#1};
+    }
+}
+\newtcolorbox[auto counter,number within=chapter,number format=\arabic]{generality}[1][]{
+	title={Generality~\thetcbcounter},
+	colframe=teal,
+	colback=teal!12!white,
+	boxed title style={colback=teal},
+	overlay unbroken and first={
+		\node[below right,font=\small,color=teal,text width=.8\linewidth]
+		at (title.north east) {#1};
+	}
+}
+\newtcolorbox[auto counter,number within=chapter,number format=\arabic]{property}[1][]{
+	title={Property~\thetcbcounter},
+	colframe=teal,
+	colback=teal!12!white,
+	boxed title style={colback=teal},
+	overlay unbroken and first={
+		\node[below right,font=\small,color=teal,text width=.8\linewidth]
+		at (title.north east) {#1};
+	}
+}
+\newtcolorbox{remark}[1][]{
+    title={\scalebox{1.75}{\raisebox{-.25ex}{\ding{43}}}~Remark},
+    colframe=yellow!45!white,
+    colback=yellow!45!white,
+    coltitle=bbe,
+    fontupper=\sffamily,
+    boxed title style={colback=yellow!45!white},
+    boxed title style={boxsep=1ex,sharp corners},%%
+    overlay unbroken and first={
+        \node[below right,font=\normalsize,color=red,text width=.8\linewidth]
+        at (title.north east) {#1};
+    }
+}
+\newtcolorbox{note}[1][]{
+    title={\scalebox{1.75}{\raisebox{-0.1ex}{\ding{45}}}~Note},
+    colframe=yellow!45!white,
+    colback=yellow!45!white,
+    coltitle=bbe,
+    fonttitle=\bfseries\sffamily,
+    fontupper=\frfamily,
+    boxed title style={colback=yellow!45!white},
+    boxed title style={boxsep=1ex,sharp corners},%%
+    overlay unbroken and first={
+        \node[below right,font=\normalsize,color=red,text width=.8\linewidth]
+        at (title.north east) {#1};
+    }
+}
+
+
+\addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
+\addto\captionsenglish{\renewcommand{\figurename}{Gambar}}
+\addto\captionsenglish{\renewcommand{\tablename}{Tabel}}
+\addto\captionsenglish{\renewcommand{\lstlistingname}{Kode Sumber}}
+\addto\captionsenglish{\renewcommand{\contentsname}{Daftar Isi}}
+\addto\captionsenglish{\renewcommand{\listfigurename}{Daftar Gambar}}
+\addto\captionsenglish{\renewcommand{\listtablename}{Daftar Tabel}}
+\addto\captionsenglish{\renewcommand{\lstlistlistingname}{Daftar Kode Sumber}}
+
+\usetikzlibrary{calc}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{jamalistyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=jamalistyle}
+
+%%GENERAL
+\DeclareBoolOption[false]{binding}
+\DeclareBoolOption[false]{sedes}
+\ProcessKeyvalOptions{jamali}\relax
+
+\ifjamali@binding
+\edef\jamali@bindingoffset{12mm}
+\else
+\edef\jamali@bindingoffset{0mm}
+\fi
+
+\geometry{%
+a4paper,%
+bindingoffset=\jamali@bindingoffset,%
+left=20mm,%
+right=20mm,%
+top=35mm,%
+bottom=20mm,%
+heightrounded}
+\setlength{\fboxsep}{3pt}
+
+%% SEDES WATERMARK
+\ifjamali@sedes
+\RequirePackage{silence}
+\WarningsOff[everypage] % Suppress warnings related to package everypage
+\RequirePackage[pages=some]{background}
+\backgroundsetup{
+scale=1,
+angle=0,
+opacity=0.1,
+hshift=100,
+vshift=-10,
+contents={%
+  \includesvg{img/logo-penerbit-jamali.svg}
+  }%
+}%
+\fi
+
+
+%% OPTIONS
+\newcommand*{\subtitle}[1]{\gdef\@subtitle{#1}}\newcommand*{\@subtitle}{}%
+\newcommand*{\assistant}[1]{\gdef\@assistant{#1}}\newcommand*{\@assistant}{}%
+\newcommand*{\assistants}[1]{\gdef\@assistants{#1}}\newcommand*{\@assistants}{}%
+\newcommand*{\professor}[1]{\gdef\@professor{#1}}\newcommand*{\@professor}{}%
+\newcommand*{\professors}[1]{\gdef\@professors{#1}}\newcommand*{\@professors}{}%
+\newcommand*{\supercom}[1]{\gdef\@supercom{#1}}\newcommand*{\@supercom}{}%
+\newcommand*{\promoter}[1]{\gdef\@promoter{#1}}\newcommand*{\@promoter}{}%
+\newcommand*{\promoters}[1]{\gdef\@promoters{#1}}\newcommand*{\@promoters}{}%
+\newcommand*{\jury}[1]{\gdef\@jury{#1}}\newcommand*{\@jury}{}%
+\newcommand*{\assessors}[1]{\gdef\@assessors{#1}}\newcommand*{\@assessors}{}%
+\newcommand*{\coverimage}[1]{\gdef\@coverimage{#1}}\newcommand*{\@coverimage}{}%
+\newcommand*{\coversvg}[1]{\gdef\@coversvg{#1}}\newcommand*{\@coversvg}{}%
+\newcommand*{\coverinput}[1]{\gdef\@coverinput{#1}}\newcommand*{\@coverinput}{}%
+\def\figurename{\textsc{Figure}}\def\tablename{\textsc{Table}}\setlength\parindent{0pt}
+
+
+\definecolor{Color1}{HTML}{999666}
+\definecolor{Color2}{HTML}{7d7a51}
+\definecolor{Color3}{HTML}{7d7942}
+\colorlet{LightBlue}{Color1!20!white}
+
+%% TASKS & QUESTIONS
+\newlist{questions}{enumerate}{1}\setlist[questions]{label*=\textbf{\arabic{*}.},ref=\arabic{*}.}
+\makeatletter\newcommand\question[1][]{\if\relax\detokenize{#1}\relax\item\relax\else\protected@edef\@currentlabel{#1}\item[#1:~]\fi}\makeatother
+\newlist{tasks}{enumerate}{1}\setlist[tasks]{label*=\textbf{\roman{*}.},ref=\roman{*}.}
+\makeatletter\newcommand\task[1][]{\if\relax\detokenize{#1}\relax\item\relax\else\protected@edef\@currentlabel{#1}\item[#1:~]\fi}\makeatother
+    
+%% FONT
+\sansmath
+\SetSymbolFont{operators}{sans}{OT1}{cmss}{m}{n}
+\SetSymbolFont{letters}{sans}{OML}{cmbrm}{m}{it}
+\SetSymbolFont{symbols}{sans}{OMS}{cmbrs}{m}{n}
+\SetSymbolFont{largesymbols}{sans}{OMX}{iwona}{m}{n}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+%% CHAPTER & SECTION
+\titleformat{\chapter}[display]{}{\hfill \tikz[remember picture] \node[] (nr) {\bf{\fontsize{20}{70}\selectfont\color{black}\MakeUppercase{\chaptername}~~ \fontsize{60}{70}\selectfont\color{black} \thechapter}};\begin{tikzpicture}[overlay,remember picture]\coordinate (rightborder) at ($(nr)+(100,0)$);\coordinate (right) at ($(nr.east) + (0.5,0)$);\draw[line width=4.5em, Color2] (right) -- (rightborder);\end{tikzpicture}}{-1ex}{\filleft\fontsize{30}{50}\selectfont #1}[\vspace{-1ex}]
+\titleformat{\section}[hang]{}{}{0pt}{\noindent\def\stackalignment{l}\stackunder[0pt]{\colorbox{Color1}{\textcolor{white}{\textbf{\LARGE \thesection \large\MakeUppercase{\space #1}}}}}{\textcolor{Color2}{\rule{\linewidth}{2pt}}}}[]
+
+%% BOX
+\newcommand\jamalibox[2][3pt]{\setlength{\fboxsep}{#1}\par\noindent\begin{center}\colorbox{LightBlue}{\parbox{\linewidth-2\fboxsep}{#2}}\end{center}\setlength{\fboxsep}{3pt}}
+
+%% COVER PAGE
+\makeatletter
+\renewcommand\maketitle{%
+\ifjamali@sedes%
+\BgThispage%
+\fi%
+\vfill%
+\begin{flushleft}\vspace*{3cm}{\textbf{\Huge\color{black}\@title}} \\[0.7cm]\ifdefempty{\@subtitle}{}{\textbf{\LARGE\color{gray}\@subtitle}}\end{flushleft}%
+\begin{flushright}\vspace*{1cm}\textbf{\@author\\}\vspace*{1cm}
+\ifdefempty{\@promoter}{}{{\bf\textcolor{gray}{Promoter\\}}\textbf{\@professor\\}\vspace*{1cm}}%
+\ifdefempty{\@promoters}{}{{\bf\textcolor{gray}{Promoters\\}}\textbf{\@professors\\}\vspace*{1cm}}%
+\ifdefempty{\@supercom}{}{{\bf\textcolor{gray}{Supervisory committee\\}}\textbf{\@supercom\\}\vspace*{1cm}}%
+\ifdefempty{\@jury}{}{{\bf\textcolor{gray}{Jury\\}}\textbf{\@jury\\}\vspace*{1cm}}%
+\ifdefempty{\@assessors}{}{{\bf\textcolor{gray}{Assessors\\}}\textbf{\@assessors\\}\vspace*{1cm}}%
+\ifdefempty{\@professor}{}{{\bf\textcolor{gray}{Professor\\}}\textbf{\@professor\\}\vspace*{1cm}}%
+\ifdefempty{\@professors}{}{{\bf\textcolor{gray}{Professors\\}}\textbf{\@professors\\}\vspace*{1cm}}%
+\ifdefempty{\@assistant}{}{{\bf\textcolor{gray}{Assistant\\}}\textbf{\@assistant\\}\vspace*{1cm}}%
+\ifdefempty{\@assistants}{}{{\bf\textcolor{gray}{Assistants\\}}\textbf{\@assistants\\}\vspace*{1cm}}%
+\end{flushright}\vfill%
+\ifdefempty{\@coverimage}{}{\begin{center}\includegraphics[width=0.7\textwidth]{\@coverimage}\end{center}\vfill}%
+\ifdefempty{\@coversvg}{}{\begin{center}\includesvg[width=0.7\textwidth]{\@coversvg}\end{center}\vfill}%
+\ifdefempty{\@coverinput}{}{\begin{center}\input{\@coverinput}\end{center}\vfill}%
+\begin{center}\@date\end{center}%
+}\makeatother
+
+\endinput
+%%
+%% End of file `jamali.sty'.
