@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  12 OCT 2024 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  13 OCT 2024 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,6 +907,116 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip77
 )
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2024/07/07 v2.1c lastpage: 2.09 or 2e? (HMM)
+
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2024/07/07 v2.1c Decide which 2e lastpage version to use (H
+MM)
+
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.
+sty
+Package: lastpagemodern 2024-07-07 v2.1c Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count347
+) 
+))
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/09/27 version 6.4.0 text color boxes
+
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks49
+\verbatim@line=\toks50
+\verbatim@in@stream=\read4
+)
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+)
+\tcb@titlebox=\box81
+\tcb@upperbox=\box82
+\tcb@lowerbox=\box83
+\tcb@phantombox=\box84
+\c@tcbbreakpart=\count348
+\c@tcblayer=\count349
+\c@tcolorbox@number=\count350
+\l__tcobox_tmpa_box=\box85
+\l__tcobox_tmpa_dim=\dimen295
+\tcb@temp=\box86
+\tcb@temp=\box87
+\tcb@temp=\box88
+\tcb@temp=\box89
+
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code
+.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.4.0'
+\c@tcbrastercolumn=\count351
+\c@tcbrasterrow=\count352
+\c@tcbrasternum=\count353
+\c@tcbraster=\count354
+)
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.
+tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.0'
+
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.
+sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill-common
+.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill
+.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box90
+))
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw
+.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.0'
+))
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.c
+ode.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.0'
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 2 on input line 23.
+\tcb@testbox=\box91
+\tcb@totalupperbox=\box92
+\tcb@totallowerbox=\box93
+)
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.
+tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.0'
+)
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.co
+de.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.0'
+)
+(/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbfitting.cod
+e.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.0'
+\tcbfitdim=\dimen296
+\tcb@lowerfitdim=\dimen297
+\tcb@upperfitdim=\dimen298
+\tcb@cur@hbadness=\count355
+))
+\c@tcb@cnt@activity=\count356
+\c@tcb@cnt@definition=\count357
+\c@tcb@cnt@theorem=\count358
+\c@tcb@cnt@example=\count359
+\c@tcb@cnt@exercise=\count360
+\c@tcb@cnt@generality=\count361
+\c@tcb@cnt@property=\count362
+
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 191.
+
+
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz
 /libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -914,25 +1024,25 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/silence/silence.sty
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
 sages
-\sl@Save=\count347
-\sl@StateNumber=\count348
-\sl@MessageCount=\count349
-\sl@Casualties=\count350
-\sl@Filter=\toks49
-\sl@Message=\toks50
-\sl@UnexpandedMessage=\toks51
-\sl@Mess@ge=\toks52
-\sl@WarningCount=\count351
-\sl@WarningNumber=\count352
-\sl@WarningCasualties=\count353
-\sl@TempBOW=\toks53
-\sl@BankOfWarnings=\toks54
+\sl@Save=\count363
+\sl@StateNumber=\count364
+\sl@MessageCount=\count365
+\sl@Casualties=\count366
+\sl@Filter=\toks51
+\sl@Message=\toks52
+\sl@UnexpandedMessage=\toks53
+\sl@Mess@ge=\toks54
+\sl@WarningCount=\count367
+\sl@WarningNumber=\count368
+\sl@WarningCasualties=\count369
+\sl@TempBOW=\toks55
+\sl@BankOfWarnings=\toks56
 LaTeX Info: Redefining \GenericWarning on input line 433.
-\sl@ErrorCount=\count354
-\sl@ErrorNumber=\count355
-\sl@ErrorCasualties=\count356
-\sl@TempBOE=\toks55
-\sl@BankOfErrors=\toks56
+\sl@ErrorCount=\count370
+\sl@ErrorNumber=\count371
+\sl@ErrorCasualties=\count372
+\sl@TempBOE=\toks57
+\sl@BankOfErrors=\toks58
 LaTeX Info: Redefining \GenericError on input line 601.
 )
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/background/background.st
@@ -943,32 +1053,32 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks57
-\XKV@tempa@toks=\toks58
+\XKV@toks=\toks59
+\XKV@tempa@toks=\toks60
 )
-\XKV@depth=\count357
+\XKV@depth=\count373
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/everypage/everypage.sty
 Package: everypage 2020/10/17 R2.0b Hooks to run on every page
 ) (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks59
-\AP@partial=\box81
-\AP@footins=\box82
+\AP@output=\toks61
+\AP@partial=\box94
+\AP@footins=\box95
 ))
-\c@questionsi=\count358
-\enitdp@questions=\count359
-\c@tasksi=\count360
-\enitdp@tasks=\count361
+\c@questionsi=\count374
+\enitdp@questions=\count375
+\c@tasksi=\count376
+\enitdp@tasks=\count377
 LaTeX Font Info:    Overwriting symbol font `operators' in version `sans'
-(Font)                  OT1/phv/m/n --> OT1/cmss/m/n on input line 185.
+(Font)                  OT1/phv/m/n --> OT1/cmss/m/n on input line 300.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `sans'
-(Font)                  OML/cmm/m/it --> OML/cmbrm/m/it on input line 186.
+(Font)                  OML/cmm/m/it --> OML/cmbrm/m/it on input line 301.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `sans'
-(Font)                  OMS/cmsy/m/n --> OMS/cmbrs/m/n on input line 187.
+(Font)                  OMS/cmsy/m/n --> OMS/cmbrs/m/n on input line 302.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sans'
-(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 188.
+(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 303.
 )
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3ke
@@ -979,15 +1089,15 @@ Package: expl3 2024-09-10 L3 programming layer (loader)
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count362
-\l__pdf_internal_box=\box83
+\l__color_backend_stack_int=\count378
+\l__pdf_internal_box=\box96
 ))
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count363
-\l__lipsum_a_int=\count364
-\l__lipsum_b_int=\count365
+\g__lipsum_par_int=\count379
+\l__lipsum_a_int=\count380
+\l__lipsum_b_int=\count381
 
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
@@ -1024,17 +1134,17 @@ LaTeX Font Info:    ... okay on input line 16.
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
-\scratchdimen=\dimen295
-\scratchbox=\box84
-\nofMPsegments=\count367
-\nofMParguments=\count368
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count369
-\MPscratchDim=\dimen296
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
-\everyMPtoPDFconversion=\toks61
+\scratchcounter=\count382
+\scratchdimen=\dimen299
+\scratchbox=\box97
+\nofMPsegments=\count383
+\nofMParguments=\count384
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count385
+\MPscratchDim=\dimen300
+\MPnumerator=\count386
+\makeMPintoPDFobject=\count387
+\everyMPtoPDFconversion=\toks63
 )
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-ba
 se.sty
@@ -1106,24 +1216,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count372
+\c@lstlisting=\count388
 Package hyperref Info: Link coloring OFF on input line 16.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 18.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 18.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 18.
-
-
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 10.40245pt on input line 19.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 19.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 16.41594pt on input line 19.
+
+
 Package svg Info: Last page of `./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf
-' is 1 on input line 19.
+' is 1 on input line 20.
 (./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf_tex
 <./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf, id=32, page=1, 501.875pt x 50
 1.875pt>
@@ -1132,12 +1240,13 @@ File: ./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf , page
 1 used on input line 56.
 (pdftex.def)             Requested size: 501.87502pt x 501.90439pt.
-) [1{/home/bpdp/software/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.
-map}{/home/bpdp/software/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+) [1
 
- <./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf>]
+{/home/bpdp/software/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+{/home/bpdp/software/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./sv
+g-inkscape/logo-penerbit-jamali_svg-tex.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 28.49991pt on input line 19.
+(Font)              scaled to size 28.49991pt on input line 20.
  (./main.toc
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -1178,6 +1287,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 7.59998pt on input line 3.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 5.69998pt on input line 3.
@@ -1216,11 +1327,11 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 ]
 Bab 1.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 18.99994pt on input line 27.
+(Font)              scaled to size 18.99994pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 56.99982pt on input line 27.
+(Font)              scaled to size 56.99982pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 31.
+(Font)              scaled to size 11.39996pt on input line 32.
 
 
 [1
@@ -1229,14 +1340,24 @@ LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 <img/logo-penerbit-jamali.png, id=92, 501.875pt x 501.875pt>
 File: img/logo-penerbit-jamali.png Graphic file (type png)
 <use img/logo-penerbit-jamali.png>
-Package pdftex.def Info: img/logo-penerbit-jamali.png  used on input line 61.
+Package pdftex.def Info: img/logo-penerbit-jamali.png  used on input line 62.
 (pdftex.def)             Requested size: 175.65887pt x 175.65887pt.
 
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 67.
 [2 <./img/logo-penerbit-jamali.png>]
 Bab 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 []|\OT1/phv/m/n/10.95 (+20) ISO AL-PHA 2
  []
 
@@ -1252,14 +1373,24 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 99.
+nput line 100.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 100.
+(Font)              scaled to size 8.54997pt on input line 101.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 100.
+(Font)              scaled to size 5.69998pt on input line 101.
 
 
-[4] (./main.aux)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1268,13 +1399,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FA33B097D71403B71B14854428487EFA;879.
  ) 
 Here is how much of TeX's memory you used:
- 30984 strings out of 473579
- 565942 string characters out of 5723707
- 1497780 words of memory out of 5000000
- 53135 multiletter control sequences out of 15000+600000
- 591617 words of font info for 157 fonts, out of 8000000 for 9000
+ 35378 strings out of 473579
+ 690285 string characters out of 5723707
+ 1654762 words of memory out of 5000000
+ 57465 multiletter control sequences out of 15000+600000
+ 593603 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,16n,107p,1001b,1397s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,17n,107p,1001b,1397s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/bpdp/software/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss10.pfb></home/bpdp/software/texlive/2024/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmss8.pfb></home/bpdp/software/texlive/2024/texmf-dist/fonts/type1/publi
@@ -1283,10 +1414,10 @@ e1/public/amsfonts/cm/cmtt9.pfb></home/bpdp/software/texlive/2024/texmf-dist/fo
 nts/type1/urw/helvetic/uhvb8a.pfb></home/bpdp/software/texlive/2024/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></home/bpdp/software/texlive/2024/texmf-dis
 t/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (9 pages, 1201830 bytes).
+Output written on main.pdf (9 pages, 1204503 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 194 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  61 named destinations out of 1000 (max. 500000)
- 49740 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 53836 words of extra memory for PDF output out of 61914 (max. 10000000)
 
