@@ -1,8 +1,8 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Daftar Isi}{ii}{chapter*.1}%
-\contentsline {chapter}{Daftar Gambar}{ii}{chapter*.1}%
-\contentsline {chapter}{Daftar Tabel}{iii}{chapter*.2}%
-\contentsline {chapter}{Daftar Kode Sumber}{iv}{chapter*.3}%
+\contentsline {chapter}{Daftar Isi}{iii}{chapter*.1}%
+\contentsline {chapter}{Daftar Gambar}{iii}{chapter*.1}%
+\contentsline {chapter}{Daftar Tabel}{iv}{chapter*.2}%
+\contentsline {chapter}{Daftar Kode Sumber}{v}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Contoh Bab}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Ini contoh sub-bab}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Logo Penerbit Jala Marwita Lestari}{2}{section.1.2}%

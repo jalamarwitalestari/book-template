@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.3)  29 DEC 2024 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.3)  29 DEC 2024 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1070,13 +1070,13 @@ Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \c@tasksi=\count378
 \enitdp@tasks=\count379
 LaTeX Font Info:    Overwriting symbol font `operators' in version `sans'
-(Font)                  OT1/phv/m/n --> OT1/cmss/m/n on input line 323.
+(Font)                  OT1/phv/m/n --> OT1/cmss/m/n on input line 314.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `sans'
-(Font)                  OML/cmm/m/it --> OML/cmbrm/m/it on input line 324.
+(Font)                  OML/cmm/m/it --> OML/cmbrm/m/it on input line 315.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `sans'
-(Font)                  OMS/cmsy/m/n --> OMS/cmbrs/m/n on input line 325.
+(Font)                  OMS/cmsy/m/n --> OMS/cmbrs/m/n on input line 316.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sans'
-(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 326.
+(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 317.
 )
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3ke
@@ -1098,36 +1098,36 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_b_int=\count383
 
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
-6.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+4.
 
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 26.
+(Font)              scaled to size 10.40245pt on input line 14.
 
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/home/bpdp/software/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mki
 i
@@ -1194,19 +1194,19 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 26.
-Package microtype Info: Applying patch `item' on input line 26.
-Package microtype Info: Applying patch `toc' on input line 26.
-Package microtype Info: Applying patch `eqnum' on input line 26.
-Package microtype Info: Applying patch `footnote' on input line 26.
-Package microtype Info: Applying patch `verbatim' on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 14.
+Package microtype Info: Applying patch `item' on input line 14.
+Package microtype Info: Applying patch `toc' on input line 14.
+Package microtype Info: Applying patch `eqnum' on input line 14.
+Package microtype Info: Applying patch `footnote' on input line 14.
+Package microtype Info: Applying patch `verbatim' on input line 14.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 26.
+LaTeX Info: Redefining \showhyphens on input line 14.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1215,21 +1215,21 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count390
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 14.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 29.
+(Font)              scaled to size 10.40245pt on input line 18.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 29.
+(Font)              scaled to size 23.63593pt on input line 18.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 29.
+(Font)              scaled to size 16.41594pt on input line 18.
 
 
 Package svg Info: Last page of `./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf
-' is 1 on input line 30.
+' is 1 on input line 19.
 (./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf_tex
 <./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf, id=47, page=1, 501.875pt x 50
 1.875pt>
@@ -1243,8 +1243,13 @@ Package pdftex.def Info: ./svg-inkscape/logo-penerbit-jamali_svg-tex.pdf , page
 {/home/bpdp/software/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 {/home/bpdp/software/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./sv
 g-inkscape/logo-penerbit-jamali_svg-tex.pdf>]
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 10.40245pt on input line 19.
+
+
+[2]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 28.49991pt on input line 30.
+(Font)              scaled to size 28.49991pt on input line 20.
  (./main.toc
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -1296,7 +1301,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 
 
 
-[2
+[3
 
 ] (./main.lof)
 \tf@lof=\write6
@@ -1304,7 +1309,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 
 
 
-[3
+[4
 
 ] (./main.lot)
 \tf@lot=\write7
@@ -1312,7 +1317,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 
 
 
-[4
+[5
 
 ] (./main.lol)
 \tf@lol=\write8
@@ -1320,25 +1325,25 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 
 
 
-[5
+[6
 
 ]
 Bab 1.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 18.99994pt on input line 42.
+(Font)              scaled to size 18.99994pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 56.99982pt on input line 42.
+(Font)              scaled to size 56.99982pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 46.
+(Font)              scaled to size 11.39996pt on input line 36.
 
 
 [1
 
 ]
-<img/logo-penerbit-jamali.png, id=108, 501.875pt x 501.875pt>
+<img/logo-penerbit-jamali.png, id=113, 501.875pt x 501.875pt>
 File: img/logo-penerbit-jamali.png Graphic file (type png)
 <use img/logo-penerbit-jamali.png>
-Package pdftex.def Info: img/logo-penerbit-jamali.png  used on input line 76.
+Package pdftex.def Info: img/logo-penerbit-jamali.png  used on input line 66.
 (pdftex.def)             Requested size: 175.65887pt x 175.65887pt.
 
 
@@ -1353,7 +1358,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2 <./img/logo-penerbit-jamali.png>]
 Bab 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []|\OT1/phv/m/n/10.95 (+20) ISO AL-PHA 2
  []
 
@@ -1369,11 +1374,11 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 114.
+nput line 104.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 115.
+(Font)              scaled to size 8.54997pt on input line 105.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 115.
+(Font)              scaled to size 5.69998pt on input line 105.
 
 
 
@@ -1395,11 +1400,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 820E25E63E79FB1A329A2EF90FE9CD3B;1336.
  ) 
 Here is how much of TeX's memory you used:
- 35489 strings out of 473330
- 692475 string characters out of 5715152
- 1656848 words of memory out of 5000000
- 57821 multiletter control sequences out of 15000+600000
- 590148 words of font info for 154 fonts, out of 8000000 for 9000
+ 35486 strings out of 473330
+ 692473 string characters out of 5715152
+ 1656184 words of memory out of 5000000
+ 57807 multiletter control sequences out of 15000+600000
+ 592248 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,16n,107p,1001b,1397s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/bpdp/software/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/c
@@ -1410,10 +1415,10 @@ e1/public/amsfonts/cm/cmtt9.pfb></home/bpdp/software/texlive/2024/texmf-dist/fo
 nts/type1/urw/helvetic/uhvb8a.pfb></home/bpdp/software/texlive/2024/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></home/bpdp/software/texlive/2024/texmf-dis
 t/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (9 pages, 1203543 bytes).
+Output written on main.pdf (10 pages, 1204194 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 61 named destinations out of 1000 (max. 500000)
- 47724 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 51820 words of extra memory for PDF output out of 61914 (max. 10000000)
 
