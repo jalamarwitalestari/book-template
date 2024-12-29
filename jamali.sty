@@ -95,20 +95,7 @@
 }
 
 \newtcbox{\emphasizebox}[1][red]{no shadow, on line,arc=0pt,outer arc=0pt,colback=#1!10!white,colframe=#1!50!black,boxsep=0pt,left=1pt,right=1pt,top=2pt,bottom=2pt,boxrule=0pt,bottomrule=1pt,toprule=1pt}
-\newtcolorbox{solution}[1][]{
-    no shadow,
-    top=2ex,
-    boxrule=0pt,
-    leftrule=1.4pt,
-    title={Solution},
-    colframe=green!79!blue,
-    colback=green!12!white,
-    boxed title style={colback=green!79!blue},
-    overlay unbroken and first={
-        \node[below right,font=\small,color=magenta,text width=.8\linewidth]
-        at (title.north east) {#1};
-    }
-}
+
 \newtcolorbox[auto counter,number within=chapter,number format=\arabic]{activity}[1][]{
 	title={Activity~\thetcbcounter},
 	colframe=green,
