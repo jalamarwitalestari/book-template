@@ -42,7 +42,6 @@
 \RequirePackage[scaled]{helvet}
 \RequirePackage{sansmath}
 \RequirePackage{caption}
-\RequirePackage{titlesec}
 \RequirePackage{stackengine}
 \RequirePackage{microtype}
 \RequirePackage{listings}
@@ -52,6 +51,19 @@
 \RequirePackage[accsupp]{axessibility}  % improves PDF readability for those with disabilities.
 \RequirePackage{hyperref}
 \RequirePackage{lastpage}
+\RequirePackage{mfirstuc}
+
+\definecolor{Color1}{HTML}{999666}
+\definecolor{Color2}{HTML}{7d7a51}
+\definecolor{Color3}{HTML}{7d7942}
+\colorlet{LightBlue}{Color1!20!white}
+
+
+\fancypagestyle{plain}{
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyhead{}
+  \fancyfoot[C]{Halaman: \thepage}
+}
 
 \setlength{\arrayrulewidth}{0.5mm}
 \setlength{\tabcolsep}{18pt}
@@ -187,9 +199,20 @@
     }
 }
 
+\renewcommand{\chaptermark}[1]{%
+  \markboth{\chaptername\ \thechapter.\ #1}{}
+}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+
 \fancyfoot{}
-\fancyfoot[LE,RO]{\emphasizebox[green]{\scriptsize{Halaman \thepage\ dari \pageref{LastPage}}}}
+%\fancyfoot[C]{\emphasizebox[Color1]{\scriptsize{Halaman \thepage\ dari \pageref{LastPage}}}}
+\fancyfoot[C]{Halaman: \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+\fancyhead{}
+\fancyhead{
+  \leftmark \hfill \rightmark
+}
 
 \addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
 \addto\captionsenglish{\renewcommand{\figurename}{Gambar}}
@@ -284,10 +307,10 @@ contents={%
 \def\figurename{\textsc{Figure}}\def\tablename{\textsc{Table}}\setlength\parindent{0pt}
 
 
-\definecolor{Color1}{HTML}{999666}
-\definecolor{Color2}{HTML}{7d7a51}
-\definecolor{Color3}{HTML}{7d7942}
-\colorlet{LightBlue}{Color1!20!white}
+%\definecolor{Color1}{HTML}{999666}
+%\definecolor{Color2}{HTML}{7d7a51}
+%\definecolor{Color3}{HTML}{7d7942}
+%\colorlet{LightBlue}{Color1!20!white}
 
 %% TASKS & QUESTIONS
 \newlist{questions}{enumerate}{1}\setlist[questions]{label*=\textbf{\arabic{*}.},ref=\arabic{*}.}
@@ -306,6 +329,7 @@ contents={%
 
 %% CHAPTER & SECTION
 \titleformat{\chapter}[display]{}{\hfill \tikz[remember picture] \node[] (nr) {\bf{\fontsize{20}{70}\selectfont\color{black}\MakeUppercase{\chaptername}~~ \fontsize{60}{70}\selectfont\color{black} \thechapter}};\begin{tikzpicture}[overlay,remember picture]\coordinate (rightborder) at ($(nr)+(100,0)$);\coordinate (right) at ($(nr.east) + (0.5,0)$);\draw[line width=4.5em, Color2] (right) -- (rightborder);\end{tikzpicture}}{-1ex}{\filleft\fontsize{30}{50}\selectfont #1}[\vspace{-1ex}]
+%\titleformat{\section}[hang]{}{}{0pt}{\noindent\def\stackalignment{l}\stackunder[0pt]{\colorbox{Color1}{\textcolor{white}{\textbf{\LARGE \thesection \large\MakeUppercase{\space #1}}}}}{\textcolor{Color2}{\rule{\linewidth}{2pt}}}}[]
 \titleformat{\section}[hang]{}{}{0pt}{\noindent\def\stackalignment{l}\stackunder[0pt]{\colorbox{Color1}{\textcolor{white}{\textbf{\LARGE \thesection \large\MakeUppercase{\space #1}}}}}{\textcolor{Color2}{\rule{\linewidth}{2pt}}}}[]
 
 %% BOX

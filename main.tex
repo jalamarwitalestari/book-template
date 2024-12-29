@@ -12,14 +12,28 @@
 \author{Bambang Purnomosidi D. P.}
 %\professor{We Don't Know (yet)}
 
+
+
+\addto\captionsenglish{\renewcommand{\figurename}{Gambar}}
+\addto\captionsenglish{\renewcommand{\tablename}{Tabel}}
+\addto\captionsenglish{\renewcommand{\lstlistingname}{Kode Sumber}}
+\addto\captionsenglish{\renewcommand{\contentsname}{Daftar Isi}}
+\addto\captionsenglish{\renewcommand{\listfigurename}{Daftar Gambar}}
+\addto\captionsenglish{\renewcommand{\listtablename}{Daftar Tabel}}
+
+
 %% DOCUMENT
 \begin{document}
 \pagenumbering{roman}
 \thispagestyle{empty}
 \maketitle
 \tableofcontents
+\addcontentsline{toc}{chapter}{\contentsname}
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
+\addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
+\addcontentsline{toc}{chapter}{\lstlistlistingname}
 \lstlistoflistings
 \newpage
 \pagenumbering{arabic}
