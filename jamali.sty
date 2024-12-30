@@ -54,6 +54,16 @@
 \RequirePackage{mfirstuc}
 \RequirePackage{pageslts}
 \RequirePackage{pifont}
+\RequirePackage{layouts}
+
+\usepackage{xparse}
+\ExplSyntaxOn
+\RenewDocumentCommand{\prntlen}{m}
+ {
+   \dim_to_decimal_in_unit:nn { #1 } { 1\use:c {l@yunits} } \, \use:c{l@yunits}
+ }
+\ExplSyntaxOff
+
 
 \def\Isbn{Nomor-ISBN}
 \def\TataLetak{Name of Layouter}
@@ -298,7 +308,8 @@ contents={%
   \textsc{Desain Sampul: \DesainSampul}\\
   \newline
   \textsc{Halaman: \lastpageref{pagesLTS.roman} + \pageref{LastPage}}\\
-  \textsc{21 cm x 29,7 cm}\\
+  \textsc{\printinunitsof{cm}\prntlen{\paperwidth} x \printinunitsof{cm}\prntlen{\paperheight}}\\
+  %\textsc{21 cm x 29,7 cm}\\
   \textsc{Edisi: \Edisi}\\
   \textsc{Cetakan \Cetakan, \SaatCetak}\\
   \newline

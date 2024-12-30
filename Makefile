@@ -6,3 +6,6 @@ view:
 
 clean:
 	rm main.aux; rm main.lof; rm main.log; rm main.lol; rm main.lot; rm main.out; rm main.toc; rm main.pdf
+
+cwp:
+	rm main.aux; rm main.lof; rm main.log; rm main.lol; rm main.lot; rm main.out; rm main.toc
